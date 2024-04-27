@@ -1,0 +1,118 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f7; /* Couleur de fond pastel */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #a2e8bd; /* Couleur de fond pastel verte */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 5px;
+}
+
+nav li img {
+    margin-right: 5px;
+}
+
+/* Style de l'en-tête */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('pexels-8moments-1183099.jpg'); /* Image de fond */
+    background-size: cover;
+    color: #fff; /* Couleur du texte */
+}
+
+/* Style de la section principale */
+#main-section {
+    padding: 20px;
+}
+
+#main-section h2 {
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h3 {
+    color: #00755e; /* Couleur du titre de la formation */
+}
+
+article img {
+    width: 100%; /* Image de la formation occupe toute la largeur */
+    margin-bottom: 10px;
+}
+
+aside {
+    background-color: #d2f4e7; /* Couleur de fond pastel verte plus claire */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style de la section des commentaires */
+#comments-section {
+    padding: 20px;
+    background-color: #e6f9f1; /* Couleur de fond pastel verte encore plus claire */
+}
+
+#comments-section h2 {
+    margin-bottom: 20px;
+}
+
+#comment-form {
+    margin-top: 20px;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#comment-form input[type="email"],
+#comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comment-form button {
+    padding: 10px 20px;
+    background-color: #00755e; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #00523d; /* Couleur de fond du bouton au survol */
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a2e8bd; /* Couleur de fond pastel verte */
+    color: #fff; /* Couleur du texte */
+}
+

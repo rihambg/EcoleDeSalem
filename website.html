@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom de l'École de Formation</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <nav>
+        <!-- Informations de l'étudiant -->
+        <ul>
+            <li><img src="icones/nom_prenom.png" alt="icon"> Prénom Nom</li>
+            <li><img src="icones/groupe_section.png" alt="icon"> Groupe & Section</li>
+            <li><img src="icones/email.png" alt="icon"> example@mail.com</li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Nom de l'École de Formation</h1>
+        <img src="background_image.jpg" alt="Background Image">
+    </header>
+
+    <section id="main-section">
+        <h2>Description de l'École de Formation</h2>
+        <p>Ici, la description de l'école de formation.</p>
+
+        <!-- Section pour chaque formation avec un lien vers le document correspondant -->
+        <article>
+            <h3>Nom de la Formation 1</h3>
+            <img src="formation1_image.jpg" alt="Formation 1 Image">
+            <p>Description de la formation 1.</p>
+            <a href="lien_vers_document_formation1.pdf">Lien vers le document</a>
+        </article>
+
+        <!-- Résumé des promotions actuelles -->
+        <aside>
+            <h2>Promotions Actuelles</h2>
+            <marquee direction="up" scrollamount="3">
+                <!-- Contenu des promotions -->
+                <p>Promotion 1</p>
+                <p>Promotion 2</p>
+                <p>Promotion 3</p>
+            </marquee>
+        </aside>
+    </section>
+
+    <section id="comments-section">
+        <h2>Commentaires</h2>
+        <!-- Affichage des commentaires -->
+        <div id="comments">
+            <!-- Les commentaires seront affichés ici dynamiquement avec JavaScript -->
+        </div>
+        
+        <!-- Formulaire pour envoyer un commentaire -->
+        <form id="comment-form">
+            <label for="email">Adresse Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="comment">Commentaire :</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Pied de page -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
